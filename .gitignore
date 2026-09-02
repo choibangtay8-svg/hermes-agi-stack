@@ -1,0 +1,13 @@
+.venv/
+node_modules/
+*.db
+.pglite/
+.DS_Store
+.env
+secrets/
+.runtime/
+config/gbrain.config.local.json
+__pycache__/
+*.py[cod]
+services/gbrain/
+.gbrain_admin_token

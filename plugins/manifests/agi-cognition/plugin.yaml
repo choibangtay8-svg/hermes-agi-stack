@@ -1,0 +1,13 @@
+name: agi-cognition
+version: 0.1.0
+description: "Metacognition tools for agents: causal simulation, curiosity quests, dialectic debate, drift/ontology reset. Use when planning multi-step work, auditing failed runs, or deciding when to revise a skill."
+author: choibangtay8-svg
+kind: standalone
+platforms:
+  - linux
+  - macos
+provides_tools:
+  - causal_simulate
+  - curiosity_quests
+  - dialectic_debate
+  - paradigm_drift_report

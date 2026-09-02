@@ -1,0 +1,11 @@
+{
+  "vaultPath": "~/knowledge-vault",
+  "dbPath": "~/.local/share/hermes-agi-stack/gbrain.pglite",
+  "mcp": {
+    "transport": "http",
+    "httpPort": 8765,
+    "serveCommand": "bun run src/cli.ts serve --http --port 8765"
+  },
+  "authTokenEnv": "GBRAIN_MCP_TOKEN",
+  "adminTokenEnv": "GBRAIN_ADMIN_BOOTSTRAP_TOKEN"
+}
