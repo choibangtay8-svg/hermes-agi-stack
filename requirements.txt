@@ -1,0 +1,7 @@
+fastapi
+mcp
+pydantic
+pyyaml
+z3-solver
+networkx
+

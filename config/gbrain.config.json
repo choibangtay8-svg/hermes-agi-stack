@@ -1,0 +1,5 @@
+{
+  "vaultPath": "~/knowledge-vault",
+  "dbPath": "~/.local/share/hermes-agi-stack/gbrain.pglite",
+  "mcp": {"transport": "stdio", "httpPort": 8765}
+}

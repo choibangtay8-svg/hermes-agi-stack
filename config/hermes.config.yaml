@@ -1,0 +1,14 @@
+# Hermes integration. Select one GBrain transport in deployment.
+mcpServers:
+  gbrain_stdio:
+    enabled: true
+    command: bun
+    args: [run, services/gbrain/src/cli.ts, serve]
+  gbrain_http:
+    enabled: false
+    url: http://127.0.0.1:8765/mcp
+plugins:
+  causal_sim: {enabled: true}
+  curiosity_engine: {enabled: true}
+  dialectic_council: {enabled: true}
+  paradigm_shift: {enabled: true}
